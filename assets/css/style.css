@@ -18,17 +18,34 @@ body {
 
 .banner-content {
     background-image: url(../images/banner.png);
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid  #31A8DD;
 }
 
 .logo {
-    text-align: center;
+    margin: auto;
     padding-top: 80px;
+    
+}
+
+.logo img {
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 h1 {
+    color:  #31A8DD;
+    padding: 60px 0 20px 0;
+    text-transform: uppercase;
+}
 
+p {
+    color: white;
+    font-size: 1.3em;
+    padding: 20px 0 20px 0;
 }
 
 .banner .banner-content button {
@@ -46,7 +63,14 @@ h1 {
 }
 
 #course-content {
-    
+    height: 500px;
+    text-align: center;
+    border-bottom: 1px solid  #31A8DD;
+}
+
+h2 {
+    color: #31A8DD;
+    text-transform: uppercase;
 }
 
 #transform-world {
@@ -56,6 +80,7 @@ h1 {
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
+    border-bottom: 1px solid  #31A8DD;
 }
 
 #transform-world p {
@@ -67,3 +92,13 @@ h1 {
    height: 500px; 
    padding: 200px 0 0 100px;     
 } 
+
+#professional-challenges {
+    text-align: center;
+    border-bottom: 1px solid  #31A8DD;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
