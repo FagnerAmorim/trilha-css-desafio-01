@@ -62,10 +62,38 @@ p {
     background-color: #3ba1cd27;
 }
 
+section {
+    margin: 100px auto;
+}
+
+
 #course-content {
-    height: 500px;
+    width: 800px;
     text-align: center;
-    border-bottom: 1px solid  #31A8DD;
+}
+
+.modules-list {
+    color: white;
+    margin: 24px;
+    font-size: 1rem;
+    padding: 16px 32px;
+    background-color: transparent;
+}
+
+.modules-list span {
+    color: #31A8DD;
+}
+
+.module {
+    width: 530px;
+    padding: 15px;
+    margin: 0 auto 24px;
+    border: 2px solid #3BA1CD;
+    border-radius: 50px;
+}
+
+.module:hover {
+    background-color: #3ba1cd27;
 }
 
 h2 {
@@ -74,23 +102,22 @@ h2 {
 }
 
 #transform-world {
-    background-image: url(../images/woman-code.png);
-    background-repeat: no-repeat;
+    height: 560px;
     background-size: cover;
+    background-image: url(../images/woman-code.png);
     background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
+    border-top: 1px solid  #31A8DD;
     border-bottom: 1px solid  #31A8DD;
+    padding: 200px;
 }
 
 #transform-world p {
-   font-size: 90px;
-   color: white;
-   text-transform: lowercase;
-   text-wrap-mode: wrap;
-   width: 500px;
-   height: 500px; 
-   padding: 200px 0 0 100px;     
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: white;
+    text-transform: lowercase;
+    max-width: 250px; 
+    text-shadow: 3px 2px #33A8DB;  
 } 
 
 #professional-challenges {
