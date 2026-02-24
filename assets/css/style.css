@@ -203,16 +203,21 @@ footer a:hover {
 }
 
 @media screen and (max-width: 700px) {
+    .banner {
+        width: auto;
+    }
+
     .banner-content {
-        width: 425px;
+        width: auto;
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
 
     .banner p {
         font-size: 1em;
+        padding: 0 15px;
     }
 
     section {
