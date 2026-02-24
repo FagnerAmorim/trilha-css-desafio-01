@@ -204,7 +204,7 @@ footer a:hover {
 
 @media screen and (max-width: 700px) {
     .banner-content {
-        width: 400px;
+        width: 425px;
     }
 
     h1 {
@@ -220,7 +220,7 @@ footer a:hover {
     }
 
     #course-content {
-        width: 400px;
+        width: 425px;
     }
 
     h2 {
@@ -238,7 +238,7 @@ footer a:hover {
     }
 
     .module {
-        width: 400px;
+        width: 350px;
         font-size: .8em;
         padding: 15px 5px;
     }
