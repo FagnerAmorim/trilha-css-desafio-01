@@ -12,40 +12,65 @@ body {
 }
 
 .banner {
-    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    height: 600px;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid  #31A8DD;
     
 }
 
 .banner-content {
-    background-image: url(../images/banner.png);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 1px solid  #31A8DD;
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
 }
 
 .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
     margin: auto;
-    padding-top: 80px;
-    
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.logo:hover {
+    border: 2px solid #31A8DD;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.63);
 }
 
 .logo img {
-    background-color: rgba(0, 0, 0, 0.74);
-    border-radius: 50%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
+    filter: drop-shadow(3px 4px #33A8DB);
 }
 
 h1 {
-    color:  #31A8DD;
-    padding: 60px 0 20px 0;
+    font-size: 2.5rem;
+    font-weight: 900;
     text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 p {
     color: white;
-    font-size: 1.3em;
-    padding: 20px 0 20px 0;
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+    
 }
 
 .banner .banner-content button {
@@ -60,10 +85,12 @@ p {
 
 .banner .banner-content button:hover {
     background-color: #3ba1cd27;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.158);
 }
 
 section {
     margin: 100px auto;
+    
 }
 
 
@@ -94,11 +121,16 @@ section {
 
 .module:hover {
     background-color: #3ba1cd27;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.158);
 }
 
 h2 {
+    font-size: 2.4rem;
     color: #31A8DD;
+    font-weight: bold;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    margin-bottom: 24px;
 }
 
 #transform-world {
@@ -122,10 +154,47 @@ h2 {
 
 #professional-challenges {
     text-align: center;
-    border-bottom: 1px solid  #31A8DD;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+.logo-2 {
+    background-color: rgba(2, 45, 63, 0.11);
+    width: 600px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.logo-2:hover {
+    border: 2px solid #31A8DD;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.164);
 }
 
 footer {
+    padding: 20px 0;
     text-align: center;
     font-size: 12px;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid  #31A8DD;
 }
+
+footer a {
+    color: #31A8DD;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.dio-logo {
+    width: 400px;
+    filter: drop-shadow(6px 3px #33A8DB);   
+}
+
